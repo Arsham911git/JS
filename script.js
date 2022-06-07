@@ -1,5 +1,4 @@
-$.getJSON("/JSON/motorists.json",
-    function (json) {
+$.getJSON("/JSON/motorists.json", json => {
         let motorist = '';
         $.each(json, function (_key, value) {
             motorist +=
